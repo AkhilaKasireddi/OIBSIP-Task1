@@ -1,0 +1,116 @@
+
+* {
+    padding: 0%;
+    margin: 0;
+    font-family: 'Montserrat', sans-serif;
+}
+
+.container {
+    height: 100vh;
+    width: 100%;
+    background: linear-gradient(rgba(245, 246, 245, 0.585),rgba(245, 246, 245, 0.585)),url("shop.jpg");
+    background-position: center;
+    background-size: cover;
+    padding-left: 10%;
+    padding-right: 10%;
+    box-sizing: border-box;
+}
+
+.navbar {
+    height: 12%;
+    display: flex;
+    align-items: center;
+}
+.logo{
+    width: 100px;
+    height: 100%;
+    cursor: pointer;
+}
+.menu{
+    width: 120px;
+    cursor: pointer;
+    margin-left:60px;
+}
+nav{
+    flex: 1;
+    text-align: right;
+}
+
+nav ul li{
+    list-style: none;
+    display: inline-block;
+    margin-left: 60px;
+}
+nav ul li a{
+    text-decoration: none;
+    color: deeppink;
+    font-size: 30px;
+    font-weight: 650;
+}
+.row{
+    display: flex;
+    height: 90%;
+    align-items:center;
+}
+.col{
+    flex-basis: 50%;
+}
+h3{
+    color:crimson;
+    font-size: 100px;
+}
+p{
+    color: darkred;
+    font-size: 20px;
+    font-weight: 300;
+    line-height: 20px;
+}
+button{
+    width: 180px;
+    color: crimson;
+    font-size: 15px;
+    font-weight: 400;
+    padding: 12px 0;
+    background: #fff;
+    border: 0;
+    border-radius: 20px;
+    outline: none;
+    margin-top: 30px;
+}
+.card
+{
+   width: 225px;
+   height: 250px;
+   display: inline-block;
+   border-radius: 10px; 
+   padding: 15px 25px;
+   box-sizing: border-box;
+   cursor: pointer;
+   margin: 10px 15px;
+   background-position: center;
+   background-size: cover;
+   transition: transform 0.5s;
+}
+.c1{
+    background-image: url("ele.jpg");
+}
+.c2{
+    background-image: url("fashion.jpg");
+}
+.c3{
+    background-image: url("home.jpg");
+}
+.c4{
+    background-image: url("bty.jpg");
+}
+.card:hover{
+    transform: translateY(-10px);
+}
+h5{
+    color: black;
+    text-shadow: 0 0 5px #999;
+}
+.card p{
+    text-shadow: 0 0 15px #000;
+    font-size: 10px;
+}
